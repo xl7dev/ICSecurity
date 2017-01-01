@@ -1,0 +1,94 @@
+#From:http://www.scadaexposure.com,,,
+Vendor,Product,Version,Dork
+Generic,Generic,Generic,"""Server: VTS"" -IIS -Apache -nginx 401 -500 -Boa -Sitewatch -Apple -httpd -cpsrvd -Ubicom -DCS-6620"
+Generic,Generic,Generic,--All--
+Adcon Telemetry,A850 Telemetry Gateway,Generic,A850 Telemetry Gateway
+ABB,RTU500,RTU560,ABB RTU560
+ABB,Generic,Generic,ABB Webmodule
+ACKP,Generic,Generic,AKCP Embedded Web Server
+Allen-Bradley,Generic,Generic,Allen-Bradley
+BroadWeb,Generic,Generic,BroadWeb
+General Electric,Cimplicity,Generic,CIMPLICITY-HttpSvr
+Cimetrics,Eplus - B/IP to B/WS Gateway Firewall,Generic,Cimetrics Eplus Web Server
+Schneider Electric,CitectSCADA,Generic,CitectSCADA
+Schneider Electric,Generic,Generic,ClearSCADA
+Delta Controls,enteliTOUCH,Generic,DELTA enteliTOUCH
+Electro Industries GaugeTech,Generic,Generic,EIG Embedded Web Server
+Elster EnergyICT,Generic,Generic,EnergyICT
+Elster EnergyICT,RTU,Generic,EnergyICT RTU
+Generic,Generic,Generic,GoAhead-Webs InitialPage.asp
+Schneider Electric,PowerLogic EGX,EGX100MG,"HMI, XP277"
+HMS,EtherNet/IP / Modbus-TCP Interface,Generic,HMS AnyBus-S WebServer
+Beck IPC,IPC@CHIP,Generic,IPC@CHIP
+Clorius Controls,Generic,Generic,ISC SCADA Service HTTPserv:00001
+Generic,Generic,Generic,Jetty 3.1.8 (Windows 2000 5.0 x86)
+Schneider Electric,Modicon,M340,Modicon M340
+Generic,Generic,Generic,Modbus Bridge
+Generic,Generic,Generic,ModbusGW
+Schneider Electric,Modicon,M340,Modicon M340 CPU
+Rockwell Automation,Micrologix,Generic,Micrologix
+Generic,Generic,Generic,NET ARM Web Server/1.00
+Moxa,Generic,Generic,MoxaHttp
+Tridium,Generic,Generic,Niagara Web Server
+Novatech,Generic,Generic,NovaTech HTTPD
+Generic,Generic,Generic,PLC
+Siemens,Simatic S7,Generic,Portal0000.htm
+Siemens,Simatic S7,Generic,Portal0000
+Schneider Electric,Generic,Generic,Power Measurement Ltd
+Schneider Electric,PowerLogic ION,ION8650,Power Measurement Ltd ION8650
+Schneider Electric,PowerLogic PM,PM800,PowerLogic PM800
+Generic,Generic,Generic,Powerlink
+General Electric,Proficy,Generic,ProficyPortal
+RTS Services,Generic,Generic,RTS SCADA Server
+Reliance,Reliance 4 SCADA/HMI system,Generic,Reliance 4 Control Server
+Rockwell Automation,Generic,Generic,Rockwell Automation
+Schneider Electric,PowerLogic PM,PM820SD,S7-200
+Schneider Electric,PowerLogic PM,PM820SD,S7-300
+SAP,NetWeaver Application Server,Generic,SAP NetWeaver Application Server
+Generic,Generic,Generic,SCADA
+Siemens,Simatic HMI,Generic,SIMATIC HMI
+Siemens,Simatic NET,Generic,SIMATIC NET
+Generic,Generic,Generic,SLC-5
+Siemens,Scalance S,Generic,Scalance S
+Siemens,Scalance W,Generic,Scalance W
+Siemens,Scalance X,Generic,Scalance X
+Schleifenbauer,SPbus gateway,Generic,Schleifenbauer SPbus gateway
+Schneider Electric,PowerLogic ECC,ECC21,Schneider Electric ECC21
+Schneider Electric,PowerLogic EGX,EGX100MG,Schneider Electric EGX100MG
+Schneider Electric,PowerLogic PM,PM820SD,Schneider Electric PM820SD
+Schneider Electric,PowerLogic PM,PM870SD,Schneider Electric PM870SD
+Schneider Electric,Generic,Generic,Schneider-WEB
+Allen-Bradley,Generic,Generic,Series C Revision
+Siemens,Generic,Generic,Siemens
+Siemens,Simatic HMI,Generic,Simatic
+Siemens,Simatic S7,Generic,Simatic S7
+Siemens,Simatic HMI,Generic,Simatic -S7 HMI
+SoftPLC,Generic,Generic,SoftPLC
+SpiderControl,Generic,Generic,SpiderControl
+Stulz,Generic,Generic,Stulz GmbH Klimatechnik
+Schneider Electric,Tac XENTA 913,Generic,TAC/Xenta
+Schneider Electric,Modicon,Generic,TELEMECANIQUE BMX
+THUS,Generic,Generic,THUS plc FTP server
+Schneider Electric,Tac XENTA 913,Generic,Tac XENTA 913
+Wind River,Generic,Generic,VxWorks
+Codesys,WebVisu,Generic,Webvisu
+Wago,Generic,Generic,WAGO
+Siemens,Simatic HMI,Generic,Welcome to the Windows CE Telnet Service on HMI_Panel
+Wind River,Generic,Generic,WindRiver-WebServer
+NRG Systems,WindCube,Generic,WindWeb
+Rabbit,Generic,Generic,Z-World Rabbit
+Adcon Telemetry,addUPI-OPC Server,Generic,addUPI Server
+Elster EnergyICT,eiPortal,Generic,eiPortal
+Echelon,i.LON 600,Generic,i.LON
+Moxa,ioLogik,Generic,ioLogik Web Server
+Tridium,Generic,Generic,niagara_audit
+Tridium,Generic,Generic,niagara_audit -login
+Generic,Generic,Generic,openerp server: CherryPy
+Schneider Electric,PowerLogic ION,Generic,"port:23 ""Meter ION"""
+Trend,IQ3xcite,Generic,server: iq3
+Fujitsu,ServerView,Generic,serverview
+Schneider Electric,Generic,Generic,title:PowerLogic
+Somfy,Generic,Generic,title:Somfy
+Adcon Telemetry,Generic,Generic,title:adcon
+Rabbit,Generic,Generic,title:phasefale Z-World Rabbit
+Generic,Generic,Generic,webSCADA-Modbus
