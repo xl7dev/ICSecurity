@@ -2,17 +2,9 @@
 #Find more at http://www.scada.sl,,,,,,
 #Please contact us at scadastrangelove@gmail.com and @scadasl,,,,,,
 #release 1.1 by Oxana Andreeva (oxana.andreeva@inbox.ru),,,,,,
-,,,,,,
-Vendor,Device,Default password,Port,Device type,Protocol,Source
-ABB,AC 800M,service:ABB800xA,,Controller,,https://library.e.abb.com/public/f355a67551218ae7c1257dc0003298c5/3BDS021515-600_-_en_AC_800M_6.0_PROFINET_IO_Configuration.pdf
-ABB,SREA-01,admin:admin,80/tcp,Ethernet Adapter Module,http,https://www.inverterdrive.com/file/ABB-SREA-01-Manual
-Adcon Telemetry,Telemetry Gateway A840 and Wireless Modem A440,root:840sw,terminal program,Base Station,,http://www.adcon.com/index.php?option=com_docman&task=doc_download&gid=41&Itemid=239&lang=de
-Adcon Telemetry,"addVANTAGE Pro 6.1, 6.5",root:root,8080/tcp,HMI,HTTP,"http://adcon.com/index.php?option=com_docman&task=doc_download&gid=31&Itemid=239&lang=en, http://scient.static.otenet.gr:8080/doc/admin_help_en.pdf"
-Advantech,"SNMP-1000, MIC-3924",advantech:admin,serial port,"system management module, intelligent chassis management module",,"http://support.elmark.com.pl/advantech/pdf/SNMP-1000man.pdf, https://ecauk.com/files/2011/08/Advantech-MIC-3924-User-Manual.pdf"
-Advantech,Advantech WebAccess browser-based HMI and SCADA software,admin:blank,80/tcp,browser-based HMI and SCADA software,HTTP,http://advantech.vo.llnwd.net/o35/www/webaccess/driver_manual/Advantech-WebAccess-Quick-Start-Guide.pdf
-Advantech,"EKI-7659C, EKI-7657C",admin:admin,80/tcp,industrial switch,HTTP,http://www.rts.ua/catalog/advantech/pdf/EKI-7659C_2_201316.pdf
+Vendor,Device,DefaultPassword,Port,DeviceType,Protocol,Source
 Advantech,ADAM-6200 Series,root:00000000,80/tcp,Intelligent Ethernet I/O Module,HTTP,http://www.bb-elec.com/Products/Manuals/ADAM-6200m-pdf.pdf
-Advantech,ADAM-6050W,00000000,,I/O module,,http://datasheet.octopart.com/ADAM-6050W-AE-Advantech-datasheet-32780543.pdf
+Advantech,ADAM-6050W,0,,I/O module,,http://datasheet.octopart.com/ADAM-6050W-AE-Advantech-datasheet-32780543.pdf
 Advantech,ADAM-3600-A1F,"Root:00000000, Admin:00000000, User:00000000",80/tcp,Remote I/O Module,HTTP,https://www.proxis.ua/files/documents/UM-ADAM-3600-A1F-Ed1-EN.pdf
 Alcatel-Lucent,OmniSwitch 6250,admin:switch,"80/tcp, 23/tcp",switch,"HTTP, Telnet",https://dariusfreamon.wordpress.com/tag/defaults/
 Allied Telesis,"IE200 Series: AT-IE200-6GT, AT-IE200-6GP, AT-IE200-6FT, AT-IE200-6FP",manager:friend,terminal or terminal emulator program,Industrial Ethernet Switches,,http://www.alliedtelesis.com/userfiles/file/IE200_InstallGuide_RevC.pdf
@@ -34,22 +26,22 @@ B&B ELECTRONICS,Vlinx MESR9xx Modbus Gateway,<blank>,,Modbus Gateway,,https://ww
 Barco,MediCal QAWeb Agent,Advanced:advanced,,client application,,https://dariusfreamon.wordpress.com/2015/07/10/barco-medical-qaweb-agent-default-password/
 Beckhoff Automation GmbH,CX5020,webguest:1,23/tcp,PLC,Telnet,https://www.researchgate.net/publication/272420507_ICSSCADA_Security_Analysis_of_a_Beckhoff_CX5020_PLC
 Beckhoff Automation GmbH,TwinCAT,Administrator:1,,Software for the Windows control and automation technology,,https://infosys.beckhoff.com/english.php?content=../content/1033/sw_os/html/cx1000_os_xpe_geninfo.htm&id=
-Beck IPC,¬†IPC@CHIP,"PPPSERVER:, ppps:ppps",,PLC,pap/chap,https://www.beck-ipc.com/files/api/scxxx/config.htm
+Beck IPC,†IPC@CHIP,"PPPSERVER:, ppps:ppps",,PLC,pap/chap,https://www.beck-ipc.com/files/api/scxxx/config.htm
 BinTec Elmeg,BinTec X1200 II,"admin:bintec, ",,Router,,http://www.router-defaults.com/Router/BinTec--x1200-ip-password-username
 BinTec Elmeg,any routers,"(##unknown - means not known or any char):, ##unknown:snmp-Trap , suggested:, admin:1234, admin:password, admin:admin",,Router,,http://www.router-defaults.com/Router/BinTec--x1200-ip-password-username
 BinTec Elmeg,BinTec R230aw,admin:funkwerk,,Router,,http://www.tomshw.it/forum/banda-larga/154194-router-bintec.html
-BinTec Elmeg,"Bintec W2002T-n","admin:funkwerk, admin:admin",,WLAN Access Point for applications in rolling stocks,,http://www.bintec-elmeg.com/download.php?src=portal/downloadcenter/dateien/w2002tn/documentation/Notes-default-password-standard-passwort.pdf&system_id=138324
+BinTec Elmeg,Bintec W2002T-n,"admin:funkwerk, admin:admin",,WLAN Access Point for applications in rolling stocks,,http://www.bintec-elmeg.com/download.php?src=portal/downloadcenter/dateien/w2002tn/documentation/Notes-default-password-standard-passwort.pdf&system_id=138324
 BK Ultrasound,bk3000,administrator:superuser,,Ultrasound System,,https://dariusfreamon.wordpress.com/2015/07/12/bk-medical-aps-bk3000-ultrasound-system-default-credentials/
 Carlo Gavazzi,PowerSoft,"admin:admin, user:user",,modular software,,https://www.gavazzionline.com/pdf/PowerSoftIMENG.pdf
 CAREL,"easy/easy compact/easy split, PJ32V/PJ32W/PJ32Z",22 (access to the parameters),,"electronic microprocessor controllers, plug-in electronic digital thermostat",,"http://www.tempatron.co.uk/resources/product/manual_79.pdf, http://www.tempatron.co.uk/resources/product/manual_77.pdf"
 CAREL,pCOWeb,"root:froot, carel:fcarel, guest:fguest, httpadmin:fhttpadmin (ftp), admin:fadmin (http), passwordless accounts via telnet: http::48:48:HTTP users:/usr/http/root:/bin/bash, nobody::99:99:nobody:/var/lib/nobody:/bin/bash","21/tcp, 80/tcp",communication card,"FTP, HTTP","http://www.carel.com/documents/10191/0/%2B030220471/9619472f-f1c0-4ec9-a151-120aaa5e479a?version=1.0, https://packetstormsecurity.com/files/121716/CAREL-pCOWeb-1.5.0-Default-Credential-Shell-Access.html"
 CAREL,"ir33 platform: ir33, ir33 power, ir33 DIN, powercompact, powercompact small, mastercella","22 (access to the parameters), 66 (download activation password)",,integrated electronic microprocessor controllers with LED display,,http://www.tempatron.co.uk/resources/product/manual_80.pdf
-CAREL,Universal Infrared Series,"22 (enter and modify parameters C0, C13, 15 and 16 in addition to all ‚ÄúP‚Äù parameters), 77 (enter and modify all parameters)",,"pressure, humidity and temperature controllers",,http://www.tempatron.co.uk/resources/product/manual_76.pdf
+CAREL,Universal Infrared Series,"22 (enter and modify parameters C0, C13, 15 and 16 in addition to all ®πP®π parameters), 77 (enter and modify all parameters)",,"pressure, humidity and temperature controllers",,http://www.tempatron.co.uk/resources/product/manual_76.pdf
 CAREL,IR33-DN33 Universale series,"77 (Setting type c, d, F parameters)",,"pressure, humidity and temperature controllers",,http://www.temperature-house.com/cms-files/Carel_IR33_Manual_for_Warming_Oven.pdf
 CAREL,pRack PR100,"user password: 0000, service  password: 1234, manufacturer password: 1234",,compressor rack controller,,http://www.carel-cz.cz/dokumentace/chlazeni/pRack/pRack_Quick%20guide.pdf
 CAREL,humiSteam x-plus,77,,humidifiers,,http://www.airsystems.ro/assets/manual-humisteam-xplus--0300040en.pdf
 CAREL,PlantVisorPRO Locale,admin:admin,443/tcp,Plant supervision,HTTPS,http://www.alltyperefrigeration.com.au/logos/monitoring/quick_guide.pdf
-CAREL,PlantWatchPRO,"PVRemote:PD35010 (from a remote PC via a telephone connection)",80/tcp,supervisor for small-medium installations,HTTP,http://www.carel.co.th/documents/10191/0/%2B040000021/4b549ef7-3d35-4454-bc04-91ba26aa945d?version=1.0
+CAREL,PlantWatchPRO,PVRemote:PD35010 (from a remote PC via a telephone connection),80/tcp,supervisor for small-medium installations,HTTP,http://www.carel.co.th/documents/10191/0/%2B040000021/4b549ef7-3d35-4454-bc04-91ba26aa945d?version=1.0
 CAREL,ŒºC2SE,"Direct level: <blank>, user level: 22, super user level: 11, factory level: 66",,electronic controller,,http://planetaklimata.com.ua/instr/Carel/Carel_mC2SE_User_Manual_Eng.pdf
 ClimateWorx International,In-Row M52 Microprocessor,1024 (Service level),,controller,,http://www.climateworxinternational.com/pdf/manuals/In_Row_Controller_User_Guide.pdf
 ClimateWorx International,M52 Microprocessor,"Level 1: 1024, level 2: 4321, level 3: 1234",,controller,,http://www.climateworxinternational.com/pdf/manuals/m52umCT.pdf
@@ -67,7 +59,7 @@ Digi,"Digi Connect WAN, Digi Connect WAN GPRS, Digi Connect WAN GSM-R, Digi Conn
 Digi,Digi TransPort WR21/WR44,username:password,80/tcp,Industrial router,http,http://ftp1.digi.com/support/documentation/transport/assets/guides/IG_Digi_WR21.pdf
 Digi,Digi CM,root:dbps,"console port (9600, 8, N, 1)",Industrial router,,http://ftp1.digi.com/support/documentation/90000300_E.pdf
 Digi,DigiOne IAP Serial,root:dbps,80/tcp,Gateway,http,http://web-material3.yokogawa.com/IMMW100EIP.pdf
-Echelon,"i.LON SmartServer","for ftp and lns servers: ilon:ilon",,"Programmable Modules","ftp, L2TP",http://www.unicom-bg.com/pdf/systemintegration/iLONproducts/i.LON_SmartServer_Freely_Programmable_Modules_User_Guide.pdf
+Echelon,i.LON SmartServer,for ftp and lns servers: ilon:ilon,,Programmable Modules,"ftp, L2TP",http://www.unicom-bg.com/pdf/systemintegration/iLONproducts/i.LON_SmartServer_Freely_Programmable_Modules_User_Guide.pdf
 Echelon,"i.LON SmartServer, i.LON SmartServer 2.0, i.LON 600, i.LON 100e4",ilon:ilon,80/tcp,"Building Energy Management Solution, LonWorks/IP Server, Internet Server",HTTP,https://dariusfreamon.wordpress.com/2013/05/10/echelon-i-lon-defaults/ 
 Echelon,LumInsight,Echelon:echeloncorp,,Central Management System,,http://www.echelon.com/assets/blt3db1ad5ba909f610/LumInsight%20CMS%20Installation%20Guide_078-1059-01C.pdf
 Electro Industries/GaugeTech,"Nexus 1500+, Nexus 1500",anonymous:anonymous,80/tcp,Power Quality Meter,HTTP,"http://www.electroind.com/products/Nexus_1500+/pdf/manuals/Nexus%201500+%20Power%20Quality%20Meter%20User%20Manual%20V.1.01_E154713.pdf, http://www.electroind.com/products/Nexus_1500/pdf/manuals/Nexus%201500%20Transient%20Recording%20Power%20Quality%20Revenue%20Meter%20User%20Manual%20V.1.12_E154701.pdf"
@@ -80,22 +72,22 @@ Emerson,Smart Wireless Gateway 1420,"admin:default, maint:default, oper:default,
 Emerson,Smart Wireless Navigator,"for the Windows log in Administrator:navigator, for Smart Wireless Navigator log in Supervisor:Admin, User1:Password1, User2:Password2, User3:Password3",,stand-alone network infrastructure management tool,,http://www2.emersonprocess.com/siteadmincenter/pm%20rosemount%20documents/00809-0100-4423.pdf
 Emerson,Network Power MPH2 Rack PDU,admin:admin,80/tcp,Rack PDUs,http,https://community.emerson.com/networkpower/support/avocent/power/mph2/m/mediagallery/3093
 Emerson,UL33 UPS,123456,,UPS,Serial,http://www.emersonnetworkpower-partner.com/ArticleDocuments/4091/UL33%20User%20Manual%20Communication.doc.aspx
-Emerson,Control Link Refrigeration System Controller,0000,,Controller,,http://foodservice.structuralconcepts.com/media/com_sccmanager/temp-controller-info/emerson-control-link-cpc-controller.pdf
+Emerson,Control Link Refrigeration System Controller,0,,Controller,,http://foodservice.structuralconcepts.com/media/com_sccmanager/temp-controller-info/emerson-control-link-cpc-controller.pdf
 Emerson,UltraSite,"User 01:100, User 05:200, User 09:300, Engineer:400",,Software,,http://www.emersonclimate.com/Documents/Retail%20Solutions/Manuals/0261004Rev1.pdf
 Emerson,Avocent ACS 6000 Advanced Console Server,"admin:avocent, root:linux",,Console Server,"console port, with Telnet, SSH",http://pcs.mktg.avocent.com/@@content/manual/590767501h.pdf
 Emerson,ROCLINK 800,LOI:1000,,Software,Console,http://www.documentation.emersonprocess.com/groups/public/documents/instruction_manuals/d301159x012.pdf
 Emerson,ControlWave Micro Quick,"for download project:, SYSTEM:666666",,PLC,,http://www.documentation.emersonprocess.com/groups/public/documents/users_guide/d301425x012.pdf
 Emerson,IP-KVM Avocent MergePoint Unity,Admin:blank,,Switch,"local, HTTP",http://community.emerson.com/networkpower/support/avocent/kvmip/mpunity/w/wiki-mergepoint-unity/363.default-user-name-and-password-for-the-mergepoint-unity-kvm-over-ip-appliance
 Emerson,Ovation DCS,wdpf,,Switch for Distributed Control System,Telnet,https://supportforums.cisco.com/sites/default/files/legacy/0/3/9/11930-cs2.txt
-Emerson,Ovation DCS,"SNMP community string: wdpfRO",,Switch for Distributed Control System,SNMP,https://supportforums.cisco.com/sites/default/files/legacy/0/3/9/11930-cs2.txt
+Emerson,Ovation DCS,SNMP community string: wdpfRO,,Switch for Distributed Control System,SNMP,https://supportforums.cisco.com/sites/default/files/legacy/0/3/9/11930-cs2.txt
 Endress+Hauser,Fieldgate FXA520,super:super,80/tcp,Gateway for remote monitoring and diagnosis,HTTP,https://portal.endress.com/wa001/dla/5000241/6638/000/03/BA00051SEN_1514.pdf
 Endress+Hauser,Fieldgate Viewer,admin:0000,,HMI software,,https://dariusfreamon.wordpress.com/2013/10/15/endresshauser-fieldgate-viewer-default-credentials/
 ENTES,"EMG-10, EMG-02 , EMG-12","emg12 (for EMG12), emg10 (for EMG10), emg02 (for EMG02)",80/tcp,MODBUS Gateway,http,http://www.entes.com.tr/dosyalar/EMG_Series_EN-ver_2_2.pdf
-ENTES,"DTR-10, MCB-125/126",0000,,time relay,,"http://www.entes.com.tr/dosyalar/DTR-10%20EN%20A5299%20R2.pdf, http://www.entes.com.tr/dosyalar/mcb-125-126%20EN_.pdf"
-ENTES,MPR-53CS,0000,,network analyzer,,http://www.entes.com.tr/dosyalar/MPR_53CS_ing_A4396_R2%20.pdf
+ENTES,"DTR-10, MCB-125/126",0,,time relay,,"http://www.entes.com.tr/dosyalar/DTR-10%20EN%20A5299%20R2.pdf, http://www.entes.com.tr/dosyalar/mcb-125-126%20EN_.pdf"
+ENTES,MPR-53CS,0,,network analyzer,,http://www.entes.com.tr/dosyalar/MPR_53CS_ing_A4396_R2%20.pdf
 ENTES,GEM-05/GEM-10/10SH,gem10,80/tcp,GPRS/Modbus Gateway,HTTP,http://www.produktinfo.conrad.com/datenblaetter/125000-149999/128714-an-01-en-ENTES_EPM_04C_DIN_DIGITALMULTIMETER.pdf
 ENTES,ENTBUS PLUS,admin:1234,,Energy Management Software,,http://www.entes.com.tr/dosyalar/ENTBUS%20Plus_Client_EN.pdf
-ENTES,EPM-04/04C/04CS,0000,,MULTIMETER,,http://www.produktinfo.conrad.com/datenblaetter/125000-149999/128714-an-01-en-ENTES_EPM_04C_DIN_DIGITALMULTIMETER.pdf
+ENTES,EPM-04/04C/04CS,0,,MULTIMETER,,http://www.produktinfo.conrad.com/datenblaetter/125000-149999/128714-an-01-en-ENTES_EPM_04C_DIN_DIGITALMULTIMETER.pdf
 ENTES,MPR-SW,admin:<blank>,,Monitoring & Reporting Software,,http://tde-instruments.de/images/stories/produkte/MPR-SW2_Software_fuer_Fernueberwachung/entes_mpr-sw2-software-instruction_manual.pdf
 eWON,all,adm:adm,80/tcp,Router,http,http://ewon.biz/sites/default/files/aug-004-0-en-ewon_getting_started.pdf
 Falcon,USHA,USHA:admin,80/tcp,UPS SNMP HTTP AGENT,HTTP,https://dariusfreamon.wordpress.com/2016/01/28/falcon-usha-ups-snmp-http-agent-default-admin-credentials/
@@ -112,11 +104,11 @@ General Electric Healthcare,Datex-Ohmeda Engstr√∂m Ventilator,"23-17-21 (Super U
 General Electric Digital Energy,SNMP/Web Interface,"GE:GE (Telnet, HTTP), public (SNMP community string)","23/tcp, 80/tcp, 25/tcp",SNMP/Web Interface,"Telnet, HTTP, SNMP",http://www.lenz.pl/files/product/17678774a663fb06a1068b6cc0342292.pdf
 General Electric,"SymDec 4, WebServer, SymNav","Software: admin:admin, 12345 (Log In Password), Hardware: 0000 (Advanced Menu Password), 8111 (Factory Password), 1111 (Ethernet Access Reset Password), 2222 (DDNS Password)",80/tcp, Video Streaming Recorder,HTTP,http://static.interlogix.com/library/0150-0304c_symdec_4_uman.pdf
 Heatmiser,Netmonitor,admin:admin,80/tcp,gateway between the outside world and heating system,HTTP,http://www.thefloorheatingwarehouse.co.uk/acatalog/netmonitor_user_v3.pdf
-Helmholz Systeme,NETLink PRO HW 1-1a-1 and FW 1. 54 and higher,"NETLink PRO PoE:admin",,Ethernet Gateway for MPI/PROFIBUS,HTTP,https://www.helmholz.com/dnl/NETLink_PRO_PoE_QSG_v2_en.pdf
+Helmholz Systeme,NETLink PRO HW 1-1a-1 and FW 1. 54 and higher,NETLink PRO PoE:admin,,Ethernet Gateway for MPI/PROFIBUS,HTTP,https://www.helmholz.com/dnl/NETLink_PRO_PoE_QSG_v2_en.pdf
 Hirschmann,"RS20/RS30, MICE","user:public, admin:private",80/tcp,Switch,http,"http://www.wwsinternational.com.au/Hirschmann/pdf/quickstart.pdf;, Hirschmann MICE.pdf"
 Hirschmann,RSP 20/25/30/35,"user:public, admin:private",23/tcp (telnet),Industrial router,telnet,http://www.prosoft.ru/cms/f/456864.pdf
 Hirschmann,MACH 4000 Family/MACH 1000 Family/MACH 100 Family/MACH 4002 Family/MACH104 Family Full Gigabit/MACH 1040 Family Full Gigabit,"user:public, admin:private",,Industrial router,,"Hirschmann MACH1040 Full Gigabit.pdf, Hirschmann MACH4002 Family.pdf, Hirschmann MACH1000 Family.pdf, Hirschmann MACH4000 Family.pdf, http://www.industrialcomms.co.uk/images/pdf/IG_MACH104_02_1210_en.pdf, http://www.industrialcomms.co.uk/images/pdf/IG_MACH100_03_0709_en.pdf"
-Hirschmann,"OCTOPUS 8M..., OCTOPUS 16M..., OCTOPUS 24M‚Ä¶","user:public, admin:private",23/tcp,Industrial router,telnet,https://www.neteon.net/media/downloads/IG_Octopus8M16M24M_PoETrain_02_0708_en_1.pdf
+Hirschmann,"OCTOPUS 8M..., OCTOPUS 16M..., OCTOPUS 24M®π¶¢,user:public"," admin:private""",23/tcp,Industrial router,telnet,https://www.neteon.net/media/downloads/IG_Octopus8M16M24M_PoETrain_02_0708_en_1.pdf
 Hirschmann,EAGLE 20,"admin:private, user:public",443/tcp,Industrial ETHERNET Firewall,HTTPS,https://dariusfreamon.wordpress.com/2013/09/05/hirschmann-automation-and-control-eagle-20-defaults/
 Hitachi,EUB-550,Service Tools:SERVICETOOL,,Ultrasound Diagnostic Scanner,,https://dariusfreamon.wordpress.com/2014/08/25/hitachi-eub-5500-ultrasound-diagnostic-scanner-default-password/
 Hitachi,Web Controller,admin:1111,80/tcp,controller,HTTP,http://www.fhpsa.com/01_Biblioteca/03_Manuales/EH-W_NJI441E(X).pdf
@@ -164,7 +156,7 @@ Rockwell Automation / Allen-Bradley,"PanelView Plus 6 Graphic Terminals, Firmwar
 SAMSON GROUP,TROVIS 5590 Web Module,"To read data 1111:1111, To change data 4444:4444",,Web Module,,http://www.samsongroup.net/trovis-app/en-tv-page-102.htm
 Samsung,Integrated Management System DMS,root:rkwjsdusrnth,,Data Management Server,,http://www.tenable.com/plugins/index.php?view=single&id=53878
 Samsung,Integrated Management System S-NET mini,DMS Connection: 0000 or 1234,,S-NET IMS,,http://dvmdownload.com/controls/central-control-options/mst-s3w/technical-tip/SNET%20MINI%20MST-S3W%20SETUP_1%2017%202012.pdf
-Schneider Electric,PowerLogic Series 800 Power Meter,0000,,PLC,,http://www.powerlogic.com/literature/63230-500-282A1_PM8_Install_Guide.pdf
+Schneider Electric,PowerLogic Series 800 Power Meter,0,,PLC,,http://www.powerlogic.com/literature/63230-500-282A1_PM8_Install_Guide.pdf
 Schneider Electric,PowerLogic ION7550 / ION7650 / ION8650 Energy and power meter,0,,Energy and power meter,,"http://www2.schneider-electric.com/library/SCHNEIDER_ELECTRIC/SE_LOCAL/APS/209510_35F6/8650_Install_Guide.pdf, http://azzo.com.au/wp-content/uploads/2015/08/ION7550-RTU-UserGuide.pdf"
 Schneider Electric,PowerLogic Ethernet Gateway EGX300 / EGX100,Administrator:Gateway,80/tcp,Integrated gateway-server,http,http://azzo.com.au/wp-content/uploads/2015/05/PowerLogic-EGX300-Users-Guide.pdf
 Schneider Electric,POWERLOGIC EGX200 / EGX400 with firmware version 5.5 or higher,"Administrator:admin, User 1:master, User 2:engineer, User 3:operator",80/tcp,gateway-server,http,http://www.powerlogic.com/literature/63230-314-208A3.pdf
@@ -184,10 +176,10 @@ Siemens,Siemens WinCC 7.x,"winccd:winccpass, wincce:winccpass, DMUser:Data&Pass,
 Siemens,Ruggedcom RMC30,"admin:admin, operator:operator, guest:guest",80/tcp,Industrial router,HTTP,http://www2.schneider-electric.com/resources/sites/SCHNEIDER_ELECTRIC/content/live/FAQS/239000/FA239168/en_US/ROS_RMC30_User-Guide_EN.pdf
 Siemens,"RUGGEDCOM ROX II for RX1500, RX1501, RX1510, RX1511, RX1512","root:admin (service), admin:admin (administrator), oper:oper (operator), guest:guest (guest)",,Ethernet Switches Layer 3 / Routers,,https://cache.industry.siemens.com/dl/files/287/81194287/att_837966/v1/ROXII_v2.6_RX1500_User-Guide_CLI_EN.pdf 
 Siemens,RuggedSwitch RS8000 / RS1600 / RS900,admin,,Industrial router,RS232,http://www.techsalesnw.com/oldwebsite/products/ethernet/rc_files/RuggedSwitch%20User%20Guide%20v1.5.1.pdf
-Siemens,Siemens ST950,"root:zP2wxY4uE",161/udp,Intersection controller,SNMPv3,http://www.siemens.co.uk/traffic/en/index/productssolutionsservices/signalsandcontrollers/st950.htm
+Siemens,Siemens ST950,root:zP2wxY4uE,161/udp,Intersection controller,SNMPv3,http://www.siemens.co.uk/traffic/en/index/productssolutionsservices/signalsandcontrollers/st950.htm
 Siemens,Siemens Climatix,"Level 6 End users: 1000 (Physical), Level 4 Service operator: 2000 (Physical), Level 2 OEM: 6000 (Physical), Web: ADMIN:SBTAdmin!",80/tcp,PLC,HTTP,http://www.ivprodukt.se/documents/ivprodukt/documents/styr%20climatix/basis%20document%20climatix%20control%20system%20bdcx.100820.01.gb.pdf
 Siemens,Sicam SGU,642935177,80/tcp,RTU,HTTP,http://w3.siemens.com/smartgrid/global/en/products-systems-solutions/substation-automation/remote-terminal-units/Pages/sicam-sgu.aspx
-Siemens,Sicam SGU,"admin@root:charleM!800",9443/tcp,RTU,HTTPS,http://w3.siemens.com/smartgrid/global/en/products-systems-solutions/substation-automation/remote-terminal-units/Pages/sicam-sgu.aspx
+Siemens,Sicam SGU,admin@root:charleM!800,9443/tcp,RTU,HTTPS,http://w3.siemens.com/smartgrid/global/en/products-systems-solutions/substation-automation/remote-terminal-units/Pages/sicam-sgu.aspx
 Siemens,SC 7000 / SC 9000XL,"4712 (passcode, physical access required)",,Patient Monitors Service,,https://dariusfreamon.wordpress.com/2015/07/12/siemens-sc-7000-sc-9000xl-patient-monitors-default-admin-passcode/
 Sierra Wireless,AirLink,sconsole:12345,"12345/tcp, 2332/tcp",3G/4G gateway,"telnet, ssh",official documentation
 Sierra Wireless,AirLink,"user:12345, viewer:12345",9191/tcp,3G/4G gateway,http,official documentation
@@ -201,8 +193,8 @@ Tridium,NiagaraAX,tridium:niagara,,"Software for JACE-2, JACE-403 or JACE-545",,
 Turck,"BL20-E-GW-EN, BL67-E-GW-EN","HTTP: password, FTP: (unspecified hardcoded)","21/tcp, 80/tcp",PLC,http,"http://pdb.turck.de/media/_in/Anlagen/D301173.pdf,http://ics-cert.us-cert.gov/advisories/ICSA-13-136-01"
 Ubiquiti,AirControl,ubnt:ubnt,9005/tcp,Web Management Application,,https://dariusfreamon.wordpress.com/2015/04/16/ubiquiti-aircontrol-web-management-default-admin-credentials/
 Ubiquiti,AirOS,ubnt:ubnt,443/tcp,operation system,HTTPS,http://dl.ubnt.com/guides/airOS/airOS_UG.pdf
-Wago,WAGO-I/O-SYSTEM¬†750,"admin:wago, user:user, guest:guest",80/tcp,Controller ,http,http://www.wago.spb.ru/upload/information_system_28/3/2/8/item_328/information_items_property_340.pdf
-Wago,WAGO-I/O-IPC 758-870/000-xxx,"http, ftp:, user:user00 , administrator:, su:ko2003wa",80/tcp (http),Compact Industrial PC¬†,"http, ftp",http://www.wago.com/wagoweb/documentation/758/eng_manu/870/q07580870_00000000_2en.pdf
+Wago,WAGO-I/O-SYSTEM†750,"admin:wago, user:user, guest:guest",80/tcp,Controller ,http,http://www.wago.spb.ru/upload/information_system_28/3/2/8/item_328/information_items_property_340.pdf
+Wago,WAGO-I/O-IPC 758-870/000-xxx,"http, ftp:, user:user00 , administrator:, su:ko2003wa",80/tcp (http),Compact Industrial PC†,"http, ftp",http://www.wago.com/wagoweb/documentation/758/eng_manu/870/q07580870_00000000_2en.pdf
 Wago,Modular I/O-System Linux Fieldbus Coupler 750-860 ,"root:wago , admin:wago, user:user , guest:guest ",,PLC,,http://www.wago.com/wagoweb/documentation/750/eng_manu/coupler_controller/m07500860_00000000_0en.pdf
 WashTec,SoftCare Evo Type SE10,"00001 (limited access), 00000 (unlimited access)",,Roll-over car wash system,,http://www.washtec.com.au/files/tech-data/SoftCare2%20EVO%20Manual.pdf
 Wellintech,KingSCADA 3.0,administrator:administrator (role KVAdministrator),,Software,,http://www.slideshare.net/DefconRussia/pavel-volobuev-alexander-minozhenko-alexander-polyakov-practical-demonstration-of-typical-attacks-and-0days-in-scada-and-plccontrollers
