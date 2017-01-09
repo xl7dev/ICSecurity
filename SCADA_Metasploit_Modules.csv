@@ -1,5 +1,4 @@
 Vendor,System / Component,Default Port,Metasploit
-Advantech WebAccess,Advantech WebAccess Dashboard Viewer uploadImageCommon Arbitrary File Upload,80,exploit/windows/scada/advantech_webaccess_dashboard_file_upload
 Advantech WebAccess,Advantech WebAccess SQL Injection,80,auxiliary/admin/scada/advantech_webaccess_dbvisitor_sqli
 General Electric,GE Proficy Cimplicity WebView substitute.bcl Directory Traversal,80,auxiliary/admin/scada/ge_proficy_substitute_traversal
 Schneider,Schneider Modicon Remote START/STOP Command,502,auxiliary/admin/scada/modicon_command
