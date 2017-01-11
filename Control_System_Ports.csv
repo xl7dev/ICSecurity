@@ -1,18 +1,10 @@
-Ports,Protocol
-Modbus TCP,TCP/502
-Foundation Fieldbus HSE,TCP/UDP/1089
-Foundation Fieldbus HSE,TCP/UDP/1090
-Foundation Fieldbus HSE,TCP/UDP/1091
-Foxboro/Invensys Foxboro DCS Informix,TCP/UDP/1541
-EtherNet/IP,UDP/2222
-OPC UA Discovery Server,TCP/3480
-Emerson/Fisher ROC Plus,TCP/UDP/4000
-Telvent OASyS DNA,UDP/5050 to 5051
-Telvent OASyS DNA,TCP/5052
-Telvent OASyS DNA,TCP/5065
-OSIsoft PI Server,TCP/5450
 ABB Ranger 2003,TCP/10307
 ABB Ranger 2003,TCP/10311
+3S,TCP/1211
+3S,TCP/8080
+7-Technologies,TCP/12401
+7-Technologies,TCP/12397
+ABB MicroSCADA,TCP/12221
 ABB Ranger 2003,TCP/10364 to 10365
 ABB Ranger 2003,TCP/10407
 ABB Ranger 2003,TCP/10409 to 10410
@@ -26,18 +18,79 @@ ABB Ranger 2003,TCP/12316
 ABB Ranger 2003,TCP/12645
 ABB Ranger 2003,TCP/12647 to 12648
 ABB Ranger 2003,TCP/13722
-Johnson Controls Metasys N1,TCP/UDP/11001
-Telvent OASyS DNA,TCP/12135 to 12137
 ABB Ranger 2003,TCP/13724
 ABB Ranger 2003,TCP/13782 to 13783
-Iconic Genesis32 GenBroker (TCP),TCP/18000
+ABB Ranger 2003,TCP/38589
+ABB Ranger 2003,TCP/38593
+ABB Ranger 2003,TCP/38600
+ABB Ranger 2003,TCP/38971
+ABB Ranger 2003,TCP/39129
+ABB Ranger 2003,TCP/39278
+Advantech WebAccess,TCP/80
+Allen-Bradley/Rockwell,TCP/44818
+AzeoTech,TCP/20034
+BACnet/IP,UDP/47808
+Beckhoff,TCP/48899
+Beckhoff TwinCAT,UDP/48899
+Cicode Debugging,TCP/2074
+Client to I/O Server Comms,TCP/2082
+Cogent,TCP/4502 to 4503
+DATAC RealWin,TCP/910
+DATAC RealWin,TCP/912
+Digi ADDP,TCP/2362
+Digi International,TCP/771
+Digital Bond,TCP/28784
 DNP3,TCP/UDP/20000
+Emerson/Fisher ROC Plus,TCP/UDP/4000
+EsMnemon,TCP/502
+EsMnemon and Arnaud Soullie,TCP/502
+EtherCAT,UDP/34980
+EtherNet/IP,UDP/2222
+EtherNet/IP,TCP/UDP/44818
+FL-net Reception,UDP/55000 to 55002
+FL-net Transmission,UDP/55003
+Foundation Fieldbus HSE,TCP/UDP/1089
+Foundation Fieldbus HSE,TCP/UDP/1090
+Foundation Fieldbus HSE,TCP/UDP/1091
+Foxboor/Invensys Foxboro DCS FoxAPI,TCP/UDP/55555
+Foxboro/Invensys Foxboro DCS AIMAPI,TCP/UDP/45678
+Foxboro/Invensys Foxboro DCS Informix,TCP/UDP/1541
+General Electric,TCP/80
+General Electric,TCP/69
+Iconic Genesis32 GenBroker (TCP),TCP/18000
+Iconics,TCP/38080
+Indusoft,TCP/4322
+Indusoft,TCP/80
+Johnson Controls Metasys N1,TCP/UDP/11001
+KeyHelp,TCP/80
+KingScada,TCP/8080
+Measuresoft ScadaPro,TCP/11234
+Modbus TCP,TCP/502
+ODBC,TCP/20222
+OPC UA Discovery Server,TCP/3480
+OSIsoft PI Server,TCP/5450
+PhoenixContact PLC,TCP/1962
+Procyon,TCP/23
 PROFINET,TCP/UDP/34962
 PROFINET,TCP/UDP/34963
 PROFINET,TCP/UDP/34964
-EtherCAT,UDP/34980
-ABB Ranger 2003,TCP/38589
-ABB Ranger 2003,TCP/38593
+Rockwell,TCP/UDP/44818
+Rockwell CSP1,TCP/UDP/2221
+Rockwell CSP2,TCP/UDP/2222
+Rockwell CSP3,TCP/UDP/2223
+Schneider,TCP/502
+Schneider,TCP/21
+Schneider Electric,TCP/20222
+Schneider Electric IGSS,TCP/12397 to 12399
+Sielco Sistemi,TCP/46824
+Sielco Sistemi,TCP/46823
+Siemens Spectrum Power TG,TCP/50001 to 50016
+Siemens Spectrum Power TG,TCP/50018 to 50020
+Siemens Spectrum Power TG,UDP/50020 to 50021
+Siemens Spectrum Power TG,TCP/50025 to 50028
+Siemens Spectrum Power TG,TCP/50110 to 50111
+Siemens Technomati,TCP/7580
+Siemens Technomati,TCP/7579
 SNC GENe,TCP/38000 to 38001
 SNC GENe,TCP/38011 to 38012
 SNC GENe,TCP/38014 to 38015
@@ -45,23 +98,7 @@ SNC GENe,TCP/38200
 SNC GENe,TCP/38210
 SNC GENe,TCP/38301
 SNC GENe,TCP/38400
-ABB Ranger 2003,TCP/38600
 SNC GENe,TCP/38700
-ABB Ranger 2003,TCP/38971
-ABB Ranger 2003,TCP/39129
-ABB Ranger 2003,TCP/39278
-EtherNet/IP,TCP/UDP/44818
-Foxboro/Invensys Foxboro DCS AIMAPI,TCP/UDP/45678
-BACnet/IP,UDP/47808
-Siemens Spectrum Power TG,TCP/50001 to 50016
-Siemens Spectrum Power TG,TCP/50018 to 50020
-Siemens Spectrum Power TG,UDP/50020 to 50021
-Siemens Spectrum Power TG,TCP/50025 to 50028
-Siemens Spectrum Power TG,TCP/50110 to 50111
-FL-net Reception,UDP/55000 to 55002
-FL-net Transmission,UDP/55003
-Foxboor/Invensys Foxboro DCS FoxAPI,TCP/UDP/55555
-Telvent OASyS DNA,TCP/56001 to 56099
 SNC GENe,TCP/62900
 SNC GENe,TCP/62911
 SNC GENe,TCP/62924
@@ -81,3 +118,27 @@ SNC GENe,TCP/63082
 SNC GENe,TCP/63088
 SNC GENe,TCP/63094
 SNC GENe,TCP/65443
+Sunway Forcecontrol,TCP/2001
+TeeChart Professional,TCP/8080
+Telvent OASyS DNA,UDP/5050 to 5051
+Telvent OASyS DNA,TCP/5052
+Telvent OASyS DNA,TCP/5065
+Telvent OASyS DNA,TCP/12135 to 12137
+Telvent OASyS DNA,TCP/56001 to 56099
+Vijeo Citect Alarm Server,TCP/2076
+Vijeo Citect CTAPI,TCP/2073
+Vijeo Citect File Server,TCP/21
+Vijeo Citect Inter I/O Server Comms,TCP/2078
+Vijeo Citect Internet (IDC),TCP/2079
+Vijeo Citect Published Alarm Tags,TCP/2080
+Vijeo Citect Report Server,TCP/2075
+Vijeo Citect Time Server,TCP/2081
+Vijeo Citect Trend Server,TCP/2077
+Yokogawa,UDP/52302
+Yokogawa,TCP/20109
+Yokogawa,TCP/20171
+Yokogawa,TCP/20111
+Yokogawa,UDP/1240
+Yokogawa,TCP/34205
+Yokogawa,TCP/20010
+Yokogawa,TCP/52302
