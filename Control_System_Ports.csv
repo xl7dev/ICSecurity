@@ -143,3 +143,4 @@ Yokogawa,UDP/1240
 Yokogawa,TCP/34205
 Yokogawa,TCP/20010
 Yokogawa,TCP/52302
+Omron PLCs,TCP/UDP/9600

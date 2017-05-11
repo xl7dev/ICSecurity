@@ -97,3 +97,4 @@ Tridium,Generic,Generic,niagara_audit -login
 Wago,Generic,Generic,WAGO
 Wind River,Generic,Generic,VxWorks
 Wind River,Generic,Generic,WindRiver-WebServer
+Omron,PLCs,Generic,port:9600 response code
